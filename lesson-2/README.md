@@ -89,6 +89,16 @@ ELK ставил через box vagrant `vagrant init zeab/ub-16.04-64x-elk`, п
 Есть некий TodoList, при добавлении задачи, отправляется запрос на nodejs, который в свою очередь
 обращается к logstash.
 
+Front: 
+![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/master/lesson-2/img/1.jpg)
+
+Kibana:
+
+![img 2](https://github.com/Lisergide/gb-hl-11.19/blob/master/lesson-2/img/2.jpg)
+
+Мониторинг памяти можно осуществлять через pm2:
+
+![img 3](https://github.com/Lisergide/gb-hl-11.19/blob/master/lesson-2/img/3.jpg)
 
 
 
