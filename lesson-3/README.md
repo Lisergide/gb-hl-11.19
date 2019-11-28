@@ -1,7 +1,7 @@
 #### Урок 3. Оптимизация БД
 > 1. Установить выбранный форк MySQL Server.
 
-Установка MySQL (MariaDB)
+##### Установка MySQL (MariaDB)
 ```
     sudo yum install mariadb-server mariadb -y 
     sudo systemctl start mariadb 
@@ -14,7 +14,7 @@
 ```
 > 2. Портировать в него текущую структуру таблиц.
 
-Создаем БД
+##### Создаем БД
 
 ```
     sudo mysql -u root mysql -p
@@ -27,7 +27,7 @@
     sudo mysql -u root -p mydb < explain_models.sql
 ```
 
-Наблюдение за БД
+##### Наблюдение за БД
 
 Отправим несколько запросов, и посмотрим на дашборд приложения MySQL Workbench 
 ```
