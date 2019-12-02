@@ -39,7 +39,7 @@ FLUSH PRIVILEGES;
 
 Получаем текущую позицию binary log выполнив `SHOW MASTER STATUS;`:
 
-![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/master/lesson-4/img/1.jpg)
+![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/lesson-4/lesson-4/img/1.jpg)
 
 Делаем дам мастера БД, после чего разблокируем ее:
 ```
@@ -79,6 +79,6 @@ START SLAVE;
 ```
 Проверяем работу репликации запросом `SHOW SLAVE STATUS\G;`:
 
-![img 2](https://github.com/Lisergide/gb-hl-11.19/blob/master/lesson-4/img/2.jpg)
+![img 2](https://github.com/Lisergide/gb-hl-11.19/blob/lesson-4/lesson-4/img/2.jpg)
 
 
