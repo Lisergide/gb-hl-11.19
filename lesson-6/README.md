@@ -37,7 +37,7 @@ sudo yum install siege
 
 siege -b -c10 -t30S http://mysite.local/hello/
 ```
-![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/lesson-4/lesson-4/img/1.jpg)
+![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/lesson-6/lesson-6/img/1.jpg)
 
 > 2. Реализовать альтернативное хранение сессий в Memcached.
 
