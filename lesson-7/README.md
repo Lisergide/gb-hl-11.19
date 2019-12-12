@@ -15,7 +15,7 @@ rabbitmqctl set_permissions -p / test ".*" ".*" ".*"
 
 Интерфейс будет доступен по адресу: `http://172.25.178.174:15672/`
 
-![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/lesson-7/lesson-7/img/1.jpg)
+![img 1](https://github.com/Lisergide/gb-hl-11.19/blob/lesson-7/lesson-7/img/1.png)
 
 > 2. Создать несколько очередей.
 Установим PHP-расширение для работы с RabbitMQ.
