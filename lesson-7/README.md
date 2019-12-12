@@ -26,5 +26,6 @@ sudo yum install php-amqp
 `./www/app/TestController.php`;
 
 > 3. Реализовать цепочку «Заказ еды — оплата — доставка — отзыв клиента». Сколько понадобится очередей?
-4 очереди (Order - Payment - Delivery - Feedback).
+
+`4 очереди (Order - Payment - Delivery - Feedback).`
 
